@@ -175,13 +175,13 @@ export function AuthCard(props: AuthCardProps) {
             </label>
 
             {!isSignIn && (
-              <div className="text-right">
-                <a
-                  href="#"
-                  className="text-[12px] text-[#C5C7CA] font-[500] hover:underline"
-                >
+              <div
+                className="text-right"
+                onClick={() => setIsSignIn(!isSignIn)}
+              >
+                <p className="text-[12px] text-[#C5C7CA] font-[500] hover:underline cursor-pointer">
                   Forgot password?
-                </a>
+                </p>
               </div>
             )}
           </div>
