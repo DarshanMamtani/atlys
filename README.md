@@ -13,7 +13,7 @@ Authentication is handled on client side through **LocalStorage** of browser
 - **userState**: key stores currently logged in user on app
   *(if userState  key is not present, no user is logged in on app)*
 
-**Note**: In order to login, user must have been registered/signed up on app
+**Note**: In order to log in, the user must be registered or signed up on the app.
 
 ------------
 
