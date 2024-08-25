@@ -9,7 +9,7 @@ export function Auth() {
   React.useEffect(() => {
     const userState = localStorage.getItem("userState");
     if (isStringValid(userState)) navigate("/");
-  }, []);
+  }, [navigate]);
 
   return (
     <div className="w-screen h-screen bg-black flex flex-col items-center justify-center gap-[16px]">
